@@ -6,7 +6,6 @@
     <string name="add_faces">Thêm nhiều mặt</string>
     <string name="add_person">Thêm người</string>
     <string name="add_person_group">Thêm nhóm người</string>
-    <string name="add_subscription_key_tip"></string>
     <string name="all_faces">Tất cả khuôn mặt:</string>
     <string name="delete">Xóa</string>
     <string name="detect">Phát hiện</string>
@@ -20,7 +19,6 @@
     <string name="face_cannot_be_identified">Khuôn mặt không thể xác định</string>
     <string name="face_verification">Nhận dạng 2 khuôn mặt</string>
     <string name="faces">Những mặt trong ảnh</string>
-    <string name="find_similar_face_description">Tìm khuôn mặt tương tự</string>
     <string name="find_similar_face_log">Bản ghi cụ thể</string>
     <string name="find_similar_faces">Bắt đầu</string>
     <string name="group">Nhóm</string>
@@ -53,7 +51,6 @@
     <string name="select_face_tip">Chọn 1 khuôn mặt</string>
     <string name="select_image">Chọn ảnh</string>
     <string name="select_image_in_album">từ thư viện</string>
-    <string name="similar_face_description"></string>
     <string name="start">Đăng nhập</string>
     <string name="take_photo">Chụp bằng máy ảnh</string>
     <string name="target_face">Khuôn mặt đích</string>
@@ -72,4 +69,15 @@
     <string name="view_log">Bản ghi</string>
     <string name="zero_face">Nhận ra: 0 khuôn mặt trong tổng số</string>
     <string name="dhtl">© 2017 ĐHTL</string>
+    <string name="manage_person_groups">Quản lý nhóm</string>
+    <string name="manage_persons">Quản lý người</string>
+    <string name="face_to_face_verification">Xác minh 2 khuôn mặt</string>
+    <string name="face_to_person_verification">Xác minh mặt với người(Đang phát triên)</string>
+    <string name="add_subscription_key_tip_title">Key hết hạn</string>
+    <string name="detecting">Đang xác thực</string>
+    <string name="verifing">Đang xấc thực</string>
+    <string name="find_similar_face_description">Tìm khuôn mặt tương tự</string>
+    <string name="add_subscription_key_tip">Cần key</string>
+    <string name="subscription_key">c36a4984ab0546b5a28aac32c50ecaa1</string>
+    <string name="similar_face_description">Tìm mmm</string>
 </resources>

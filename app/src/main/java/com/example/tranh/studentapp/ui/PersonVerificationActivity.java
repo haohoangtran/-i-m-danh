@@ -93,7 +93,6 @@ public class PersonVerificationActivity extends AppCompatActivity {
                         + "belong to person "+ PersonVerificationActivity.this.mPersonId);
             }
 
-            // Show the result on screen when verification is done.
             setUiAfterVerification(result);
         }
     }
@@ -108,7 +107,7 @@ public class PersonVerificationActivity extends AppCompatActivity {
             // Get an instance of face service client to detect faces in image.
             FaceServiceClient faceServiceClient = SampleApp.getFaceServiceClient();
             try{
-                publishProgress("Detecting...");
+                publishProgress(getString(R.string.detecting));
 
                 // Start detection.
                 return faceServiceClient.detect(

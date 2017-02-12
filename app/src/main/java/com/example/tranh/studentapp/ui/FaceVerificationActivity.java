@@ -53,7 +53,7 @@ public class FaceVerificationActivity extends AppCompatActivity {
             // Get an instance of face service client to detect faces in image.
             FaceServiceClient faceServiceClient = SampleApp.getFaceServiceClient();
             try{
-                publishProgress("Verifying...");
+                publishProgress(getString(R.string.verifing)+"...");
 
                 // Start verification.
                 return faceServiceClient.verify(
@@ -106,7 +106,7 @@ public class FaceVerificationActivity extends AppCompatActivity {
             // Get an instance of face service client to detect faces in image.
             FaceServiceClient faceServiceClient = SampleApp.getFaceServiceClient();
             try{
-                publishProgress("Detecting...");
+                publishProgress(getString(R.string.detecting)+"...");
 
                 // Start detection.
                 return faceServiceClient.detect(

@@ -1,5 +1,5 @@
 <resources>
-    <string name="subscription_key" translatable="false">c36a4984ab0546b5a28aac32c50ecaa1</string>
+    <string name="subscription_key">c36a4984ab0546b5a28aac32c50ecaa1</string>
 
     <!-- Main activity -->
     <string name="detection">Detection</string>
@@ -17,8 +17,8 @@
 
     <!-- Tips to get subscription key shown on main activity-->
     <string name="app_name">Face Detected WRU</string>
-    <string name="add_subscription_key_tip_title" translatable="false">Subscription Key is Needed</string>
-    <string name="add_subscription_key_tip" translatable="false">Please put your subscription key to source file \"app/res/values/strings.xml\" to enable Face API calls.</string>
+    <string name="add_subscription_key_tip_title">Key hết hạn</string>
+    <string name="add_subscription_key_tip">Cần key (Hảo)</string>
 
     <!-- Detection activity -->
     <string name="image">Image:</string>
@@ -30,7 +30,7 @@
     <string name="verify">Verify</string>
     <string name="face_0">Face0:</string>
     <string name="face_1">Face1:</string>
-    <string name="manage_persons" translatable="false">Manage\nPersons</string>
+    <string name="manage_persons">Manage\nPersons</string>
     <string name="verification_menu">Verification\nMenu</string>
 
     <!-- Verification activity -->
@@ -39,7 +39,7 @@
 
     <!-- Identification activity -->
     <string name="identify">Identify</string>
-    <string name="manage_person_groups" translatable="false">Manage\nPerson\nGroups</string>
+    <string name="manage_person_groups">Manage\nPerson\nGroups</string>
     <string name="person_groups">Person Groups</string>
     <string name="target_image">Target image</string>
     <string name="faces">Faces in image</string>
@@ -72,7 +72,7 @@
     <string name="target_face">Target face:</string>
     <string name="all_faces">All Faces:</string>
     <string name="add_faces">Add\nFaces</string>
-    <string name="similar_face_description" translatable="false">Finding 4 matchFace faces...</string>
+    <string name="similar_face_description">Finding 4 matchFace faces...</string>
 
     <!-- Common in all activities -->
     <string name="progress_dialog_title">Please wait</string>
@@ -102,5 +102,9 @@
     <string name="user_provided_person_group_description_data">User data</string>
     <string name="start">Start</string>
     <string name="dhtl">© 2017 WRU</string>
+    <string name="face_to_face_verification">Face to Face Verification</string>
+    <string name="face_to_person_verification">Face to Person Verification</string>
+    <string name="detecting">Detecting</string>
+    <string name="verifing">Verifing</string>
 
 </resources>
